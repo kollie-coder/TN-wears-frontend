@@ -1,7 +1,7 @@
 import AuthPage from "./AuthPage/AuthPage";
 import HomePage from "./HomePage/HomePage";
 import AccountVerify from "./AuthPage/AccountVerify";
-import ForgetPassword from "./RestPassword/ForgetPassword";
+import ForgetPassword from "./ResetPassword/ForgetPassword";
 import NewPassword from "./NewPassword/NewPassword";
 
 export {
@@ -9,5 +9,5 @@ export {
     HomePage,
     AccountVerify,
     ForgetPassword,
-    NewPassword
+    NewPassword,
 }
