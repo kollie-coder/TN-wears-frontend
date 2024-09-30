@@ -11,7 +11,7 @@ const PageLayout = ({ children }) => {
     <section className='min-h-screen flex flex-col'>
        <Navbar activeLink={activeLink} setActiveLink={setActiveLink} />
        {activeLink === 'thrifts' && <Banner />}
-        <div className='bg-white w-full h-full flex-1 flex flex-col gap-[60px] md:gap-[80px] large-screen'>
+        <div className='bg-white w-full h-full flex-1 flex flex-col large-screen'>
             {children}
         </div>
 

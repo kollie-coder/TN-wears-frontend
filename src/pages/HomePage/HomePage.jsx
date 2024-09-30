@@ -1,10 +1,11 @@
 import React from 'react'
-import { PageLayout } from '../../components'
+import { Header, PageLayout, StylesCat } from '../../components'
 
 const HomePage = () => {
   return (
     <PageLayout>
-       <div>HomePage</div>
+      <Header />
+      <StylesCat />
     </PageLayout>
    
   )

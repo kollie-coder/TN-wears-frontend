@@ -5,6 +5,8 @@ import Navbar from "./Navbar/Navbar";
 import Banner from "./Banner/Banner";
 import PageLayout from "./Layout/PageLayout";
 import Footer from "./Footer/Footer";
+import Header from "./Home/Header/Header";
+import StylesCat from "./Home/StylesCat/StylesCat";
 
 
 export {
@@ -14,5 +16,7 @@ export {
     Navbar,
     Banner,
     PageLayout,
-    Footer
+    Footer,
+    Header,
+    StylesCat,
 }
