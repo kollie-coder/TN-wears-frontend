@@ -13,7 +13,7 @@ const StylesCat = () => {
     <div className='w-full h-[575px] bg-neutral-800 px-[175px] pt-[113px] pb-[125px] justify-center items-center'>
         {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-white">Top Styles on Sale</h2>
+        <h2 className="text-[32px] font-normal text-white">Top Styles on Sale</h2>
       </div>
 
       {/* Category Grid */}
@@ -24,10 +24,10 @@ const StylesCat = () => {
             <img
               src={category.imgSrc}
               alt={category.name}
-              className="w-full h-[200px] object-cover rounded-lg mb-4" // Responsive height and rounded corners
+              className="w-[229px] h-[187px] object-cover rounded-[10px] mb-6" // Responsive height and rounded corners
             />
             {/* Category Name */}
-            <p className="text-lg text-white font-medium">{category.name}</p>
+            <p className="text-white text-2xl font-normal">{category.name}</p>
           </div>
         ))}
       </div>
