@@ -10,7 +10,7 @@ const StylesCat = () => {
         { name: 'Tees & Tank', imgSrc: ImageCat5 }
       ];
   return (
-    <div className='w-full h-[575px] bg-neutral-800 px-[175px] pt-[113px] pb-[125px] justify-center items-center'>
+    <div className='w-full h-auto md:min-h-[575px] bg-neutral-800 px-[175px] pt-[113px] pb-[125px] justify-center items-center'>
         {/* Header */}
       <div className="text-center mb-12">
         <h2 className="text-[32px] font-normal text-white">Top Styles on Sale</h2>
