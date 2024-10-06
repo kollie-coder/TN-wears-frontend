@@ -4,7 +4,7 @@ import { FacebookLogo, InstagramLogo, YoutubeLogo } from '../../assets/icons'
 const Footer = () => {
   return (
     <footer className="bg-neutral-800 text-white py-12 md:py-[127px]">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-14 sm:gap-12 xl:gap-8 px-4 md:px-6 items-center">
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-14 sm:gap-12 xl:gap-8 px-4 md:px-6 items-center sm:items-start text-center sm:text-left">
         
         {/* First Grid: TN Wears with Social Logos */}
         <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
